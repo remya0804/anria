@@ -1,0 +1,322 @@
+.home-container{
+
+    width: 100%;
+
+    padding-top:140px;
+
+}
+
+/* ******* Home slider  ********* */
+
+.home-slider{
+
+    width: 100%;
+    
+}
+
+.home-slider-img{
+
+    width: 100%;
+    height: 100vh;
+}
+
+.home-slider-img img{
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: fill;
+}
+
+/* slider buttons */
+
+.home-slider-buttons{
+
+
+    display: flex;
+    justify-content: center;
+
+    gap: 8px;
+
+    width: 100%;
+
+    margin-top: 20px;
+
+
+}
+
+/* slder circles */
+
+.slider-circle{
+
+    width: 11px;
+    height: 11px;
+
+    border-radius: 50%;
+
+    background: #cdc7c7;
+
+    cursor: pointer;
+}
+
+.slider-circle-active{
+
+    background: #14ac14;
+}
+
+/* ********************** Home About   ********* */
+
+.home-about{
+
+    width: 80%;
+
+    margin: auto;
+    margin-top: 70px;
+
+    padding: 100px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+    box-shadow: -10px -10px 20px rgb(198, 197, 197);
+
+
+}
+
+.home-about-title{
+
+    font-size: 45px;
+
+    font-weight: 800;
+    
+    margin-bottom: 20px;
+
+    color: var(--navbar-bg);
+
+}
+
+.home-about-para{
+
+    font-size: 18px;
+    line-height: 1.5;
+
+    margin-bottom: 8px;
+}
+
+.home-about-right{
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+    gap:25px;
+
+    margin-top: 25px;
+
+
+}
+
+.magazine, 
+.charity{
+
+    width: 270px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap:20px;
+
+    background: #000080;
+
+    color: #ffffff;
+
+    padding: 15px 10px;
+
+    border-radius: 50px;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.charity{
+
+    background: #14ac14;
+}
+.magazine{
+    
+    padding: 15px 20px;
+
+}
+
+.magazine h3, 
+.charity h3{
+
+    font-size: 16px;
+}
+.magazine p, 
+.charity p{
+
+    margin-top: 5px;
+}
+.magazine svg, 
+.charity svg{
+
+    font-size: 40px;
+
+    transition: 0.5s;
+
+}
+
+.magazine:hover svg{
+
+    transform: scale(1.2);
+}
+.charity:hover svg{
+
+    transform: scale(1.3);
+}
+
+
+
+
+
+
+/* ****************Responsive*********** */
+
+
+@media screen and (max-width:1000px){
+
+    .home-container{
+
+        padding-top: 135px;
+    }
+}
+
+@media screen and (max-width: 890px){
+
+    .home-container{
+
+        padding-top: 145px;
+    }
+
+    .home-about-title{
+
+        font-size: 38px;
+
+        margin-bottom: 10px;
+        
+    }
+
+    .home-about{
+
+        padding: 60px;
+    }
+
+    .magazine h3, 
+    .charity h3{
+
+        font-size: 13px;
+    
+    }
+
+    .magazine svg, 
+    .charity svg{
+
+    font-size: 30px;
+
+
+    }
+
+    .magazine p, 
+    .charity p{
+
+        font-size: 14px;
+
+    }
+
+    .home-about-right{
+
+        gap:15px
+    }
+    
+}
+
+@media screen and (max-width:670px){
+
+    .home-container{
+
+        padding-top: 140px;
+    }
+
+    .home-about{
+
+        padding: 40px;
+    }
+
+    .home-about-title{
+
+        font-size: 32px;
+        
+    }
+
+    .home-about-para{
+
+        font-size: 16px;
+       
+    }
+
+    .home-about-right{
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .magazine, 
+    .charity{
+
+        width: 220px;
+    }
+    
+}
+
+@media screen and (max-width:500px){
+    .home-container{
+
+        padding-top: 119px;
+    }
+
+    .home-about{
+
+        padding: 20px;
+    }
+
+    .home-about-title{
+
+        font-size: 24px;
+        
+    }
+
+    .home-about-para{
+
+        font-size: 14px;
+       
+    }
+
+
+    .magazine svg, 
+    .charity svg{
+
+    font-size: 26px;
+
+
+    }
+
+    .magazine p, 
+    .charity p{
+
+        font-size: 12px;
+
+    }
+
+}
