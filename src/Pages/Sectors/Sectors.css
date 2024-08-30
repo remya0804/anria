@@ -1,0 +1,65 @@
+.sectors-container{
+
+    width: 70%;
+
+    margin: 80px auto;
+    margin-top: 40px;
+
+}
+
+.sectors-container h1{
+
+    font-size: 35npx;
+    font-weight: 800;
+
+    color: var(--navbar-bg);
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+}
+
+/* hr  */
+
+.sectors-container hr{
+
+    width: 10%;
+    height: 5px;
+
+    background: var(--navbar-bg);
+
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 9px;
+
+    border: none;
+}
+
+.sectors-slides-container{
+
+    margin-top: 60px;
+
+    box-shadow: -10px -10px 20px rgb(198, 197, 197);
+
+    padding: 60px;
+
+    background: rgba(0, 0, 0, 0);
+
+}
+
+.sector-slides h2{
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+
+}
+
+.sector-content{
+
+    margin-top: 30px;
+
+    background: yellow;
+}

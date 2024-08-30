@@ -7,10 +7,12 @@ import "slick-carousel/slick/slick-theme.css";
 
 import { cellsArray} from '../../assets/data'
 
+import divider from '../../assets/divider_bg.png'
+
 const CellsSlider = () => {
 
     let settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 4,
@@ -23,7 +25,7 @@ const CellsSlider = () => {
               slidesToShow: 2,
               slidesToScroll: 2,
               infinite: true,
-              dots: true
+              dots: false
             }
           },
           {
@@ -50,7 +52,9 @@ const CellsSlider = () => {
 
         <h1>ANRIA Cells</h1>
 
-        <hr />
+        {/* <img src={divider} alt="" /> */}
+
+        {/* <hr /> */}
 
         <div className="cells-slider-container">  
 

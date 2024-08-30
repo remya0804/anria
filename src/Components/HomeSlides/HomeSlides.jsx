@@ -3,8 +3,8 @@ import React from 'react'
 import './HomeSlides.css'
 import { newsArray } from '../../assets/data'
 
-import img_1 from '../../assets/img_1.jpeg'
-import img_2 from '../../assets/img_2.jpeg'
+import photo_1 from '../../assets/photo_1.jpeg'
+import photo_2 from '../../assets/photo_2.jpeg'
 
 const HomeSlides = () => {
   return (
@@ -13,7 +13,7 @@ const HomeSlides = () => {
 
       <h1>Gallery</h1>
 
-      <hr />
+      {/* <hr /> */}
 
         <div className="home-slides">    
 
@@ -64,8 +64,8 @@ const HomeSlides = () => {
 
               <div className="slide-image">
 
-                <img src={img_1} alt="" />
-                <img src={img_2} alt="" />
+                <img src={photo_1} alt="" />
+                <img src={photo_2} alt="" />
 
               </div>
 

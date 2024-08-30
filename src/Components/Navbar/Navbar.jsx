@@ -132,7 +132,7 @@ const Navbar = () => {
 
                 <ul className="sectors-submenu">
 
-                    <li>Angamaly</li>
+                    <li>Angamaly</li> 
                     <li>Ayyampuzha</li>
                     <li>Thuravoor</li>
                     <li>Sreemoolanagaram</li>

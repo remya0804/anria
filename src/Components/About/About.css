@@ -1,0 +1,138 @@
+.about-container{
+
+    width: 90%;
+
+    margin: 60px auto;
+
+    margin-bottom: 60px;
+}
+
+.about-container h1{
+
+    font-size: 40px;
+    font-weight: 800;
+
+    color: var(--navbar-bg);
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+}
+
+ .about-container hr{
+
+    width: 5%;
+    height: 5px;
+
+    background: var(--navbar-bg);
+
+    margin: auto;
+    margin-bottom: 20px;
+
+    border: none;
+
+}
+
+.about-slides{
+
+    /* background: skyblue; */
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+
+    column-gap:25px;
+    row-gap: 40px;
+
+    margin-top: 40px;
+}
+
+.about-mission,
+.about-vision,
+.about-values{
+
+    padding: 20px;
+    padding-top: 40px;
+
+    text-align: center;
+
+    position: relative;
+
+    border: 1px solid var(--navbar-bg);
+
+    border-radius: 10px;
+
+    background: var(--logo-bg);
+}
+
+.mission-icon,
+.vision-icon,
+.values-icon{
+
+    background: #000080;
+
+    position: absolute;
+
+    top:-20px;
+    left:45%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+}
+
+.about-mission svg,
+.about-vision svg,
+.about-values svg{
+
+    font-size: 28px;
+
+    position: absolute;
+
+    color: #ffffff;
+}
+
+
+.about-mission h3,
+.about-vision h3,
+.about-values h3{
+
+    color: var(--navbar-bg);
+
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.about-mission p,
+.about-vision p,
+.about-values p{
+
+    font-size: 18px;
+    line-height: 1.5;
+
+    text-align: left;
+}
+
+@media screen and (max-width:760px){
+
+    .about-container h1{
+
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

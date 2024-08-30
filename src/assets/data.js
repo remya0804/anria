@@ -1,9 +1,10 @@
 
-import img_1 from '../assets/img_1.jpg';
-import img_2 from '../assets/img_2.jpg';
+import img_1 from '../assets/img_1.jpeg';
+import img_2 from '../assets/img_2.JPG';
 import img_3 from '../assets/img_3.jpg';
 import img_4 from '../assets/img_4.jpg';
 import img_5 from '../assets/img_5.jpg';
+import img_6 from '../assets/img_6.jpg';
 
 
 import p_1 from '../assets/p_1.jpg';
@@ -27,6 +28,14 @@ import c_6 from '../assets/c_6.jpg';
 import c_7 from '../assets/c_7.jpg';
 import c_8 from '../assets/c_8.jpeg';
 import c_9 from '../assets/c_9.jpg';
+
+
+import sponsor_1 from '../assets/sponsor_1.jpg';
+import sponsor_2 from '../assets/sponsor_2.png';
+import sponsor_3 from '../assets/sponsor_3.jpg';
+import sponsor_4 from '../assets/sponsor_4.jpg';
+import sponsor_5 from '../assets/sponsor_5.jpg';
+import sponsor_6 from '../assets/sponsor_6.jpg';
 
 export const sliderArray = [
 
@@ -53,6 +62,11 @@ export const sliderArray = [
     {
         img_id: 5,
         img_path: img_5
+
+    },
+    {
+        img_id: 6,
+        img_path: img_6
 
     },
 ]
@@ -209,4 +223,158 @@ export const cellsArray = [
         cImg: c_9,
         cContent: "The purpose of establishing the Business Cell is to identify the business firms/business personalities from Angamaly region and work out the possibility for the mutual benefit of both  "
     }
+]
+
+export const sectorsArray = [
+
+    {
+
+        sector_Name: 'Angamaly',
+        sector_Content: 'Ankanadu, was the former name Angamaly during the reign of territorial princes. Angamaly is famous in all the zones of cultural heritage and industrial developments. History tells the visit of St. Thomas in AD 52. There are many ancient churches in Angamaly. St. Gerorge Forane church is one among them. G. Sankarakuruppu was born at Nayathodu, near Angamaly in 1901. Little flower Hospital in Angamaly in famous N.H 47 and Railway cross throughAngamaly. M.C.Road begins from Angamaly. Cochin Airport is situated so close to Angamaly. There are Head Officers of Bamboo Corporation, many Government departments in Angamaly.There are two Industrial Estates, FCI Godown in Angamaly. Angamaly is rich with many educational institutions.St. Joseph’s High School, Holy Family School, Higher Secondary School Nayathodu, Viswajoyothi, Donbosco are noted among them. Morning Star College, De paul College, Little Flower Hosepital, K.G. Hospital Nursing Schools are situated in Angamaly. Very ancient Kothakulangara Temple, Mosque are symbols of communal harmony maintained at Angamaly.',
+        sector_cordinator_name:'Binil George',
+        sector_cordinator_position:'Co-ordinator, Angamaly Municipality',
+        sector_j_cordinator_name:'',
+        sector_j_cordinator_position:'',
+    },
+    {
+
+        sector_Name: 'Ayyampuzha',
+        sector_Content: 'Ayyampuzha situated at the north boundary of Ernakulam District. The population comes around 20000. Most of the people depend plantation corporation for their livelihood. This panchayath is famous for its natural beauty and it is near Athirappilly waterfall. There are picnic spots like Thumboormuzhy Dam, Prakruthi Gramam are in Ayyampuzha panchayathu. There is a High school run by the bamboo corporation. Pobson Group Metal Crusher is an important industrial firm in this panchayath.',
+        sector_cordinator_name:'Mr. SIVAN KK',
+        sector_cordinator_position:'Co-ordinator, Ayyampuzha Panchayath',
+        sector_j_cordinator_name:'Mr. BIJU VARGHESE',
+        sector_j_cordinator_position:'Joint Co-ordinator, Ayyampuzha Panchayath',
+    },
+    {
+
+        sector_Name: 'Thuravoor',
+        sector_Content: 'Thuravoor panchayath eas formed In 1954 famous plans like Kalady, the birthplace of Sree Sankaracharya, Malayattoor International pilgrimcentre , Cochin International Airport are in around Thuravoor Panchayath. The main crops cultivation here are paddy, coconut, Arecanut, Rubber, pepper, Ginger. People are hardworking and peace loving. Bambooply weaving is an important occupation of the people . Thuravoor has contributed a MLA and speaker to the Kerala Legislature.',
+        sector_cordinator_name:'Mr. Mukesh VM',
+        sector_cordinator_position:'Co-ordinator, Thuravoor Panchayath',
+        sector_j_cordinator_name:'Mr. Josemon Mathew',
+        sector_j_cordinator_position:'Joint Co-ordinator, Thuravoor Panchayath',
+    },
+    {
+
+        sector_Name: 'Sreemoolanagaram',
+        sector_Content: 'It is a panchayath of 5 kilometer area and contain around 30000 peoples. Paddy cultivation is the main occupation. There are industry related to bricks making , cashewnut process. The main pilgrim centre Thriruvairanikulam Temple situated in this panchayath. There are Railway station many Government offices, schools in this Panchayath. Cochin Princess in the easily picnic spot their holiday on the banks of periyar in this panchayath.',
+        sector_cordinator_name:'MR. Sumesh Chadran',
+        sector_cordinator_position:'Co-ordinator, Sreemoolanagaram Panchayath',
+        sector_j_cordinator_name:'Mr. Joseph Sebastian',
+        sector_j_cordinator_position:'Joint Co-ordinator, Sreemoolanagaram Panchayath',
+    },
+    {
+
+        sector_Name: 'Mookkannoor',
+        sector_Content: 'Mookkannoor Panchayath was formed in 1969 and its populationis around 22000. there many ancient cultural evidences found in this panchayath like walking steps, Boundary walks, Giant clay vessels, cages, Koottala Devi Temple . The main occupation is paddy cultivation. Rubber and coconut are major crops in this panchayath. There are many vocational institutions like Balanagar ITC, Federal Institute and Technology and Lisee Nursing School. Mookkannoor is a well reputed institution.',
+        sector_cordinator_name:'Mr.Marin John',
+        sector_cordinator_position:'Co-ordinator, Mookkannoor Panchayath',
+        sector_j_cordinator_name:'Mr. Seby Varghese',
+        sector_j_cordinator_position:'Joint Co-ordinator, Mookkannoor Panchayath',
+    },
+    {
+
+        sector_Name: 'Manjapra',
+        sector_Content: 'This Panchayath situated 9 km away fro Angamaly. The population is around 30000. There are good educational institutions and health centre in this ‘Gramashemam’ Vayanasala is boosting part to the place in its cultural growth. The main religious centres are ancient Marsleeba church, Puthoopilly Sri Krishna Temple, Karpillikava Siva Temple and St. Geevarghese Jacobite Syrian Church.',
+        sector_cordinator_name:'Mr. Manoj Kanjookkaran',
+        sector_cordinator_position:'Co-ordinator, Manjapra Panchayath',
+        sector_j_cordinator_name:'Mr.Ashish Thomas',
+        sector_j_cordinator_position:'Joint Co-ordinator, Manjapra Panchayath',
+    },
+    {
+
+        sector_Name: 'Kalady',
+        sector_Content: '   Kalady is famous as the birth place of Global Master Adi Sankaracharaya. Its population is around 30,000. The main attraction are Adi Sankara stupam, Srikkeri Madam, Crocodial Pond, Sree Krishna Temple , Sree Ramakrishna Advaida Ashram. Kalady Sree Sankara College and Sree Sankaracharaya Sanskrit University are reputed educational institution. Kalady Mahasivarathri is very famous.',
+        sector_cordinator_name:'Mr.Prasad B Nair',
+        sector_cordinator_position:'Co-ordinator, Kalady Panchayath',
+        sector_j_cordinator_name:'Mr. Anoop Johny',
+        sector_j_cordinator_position:'Joint Co-ordinator, Kalady Panchayath',
+    },
+    {
+
+        sector_Name: 'Kanjoor',
+        sector_Content: ' Kanjoor situated on the banks of Periyar. The main Occupation is cultivation. Sand mining also is a major occupation at this place. The famous kanjoor church situated in this panchayath. The population of Hindu, Muslim and Christian in proportionately equal. The total populationis around 25000',
+        sector_cordinator_name:'Mr. Poly Mathai',
+        sector_cordinator_position:'Co-ordinator, Kanjoor Panchayath',
+        sector_j_cordinator_name:'Mr.SUDHEESH',
+        sector_j_cordinator_position:'Joint Co-ordinator, Kanjoor Panchayath',
+    },
+    {
+
+        sector_Name: 'Malayattoor',
+        sector_Content: ' This is two only panchayatu known by both names of Malayattoor and Neeeleswaram. The place is naturally beautiful with hills, river and forests. Malayattoor St. Thomas Church is an International Pilgrim Centre. Three Tourists spots like Mahagani Thottam, Thundam , Perumthodu, and Manapattu chira. The population is around 30000.',
+        sector_cordinator_name:'Mr. Baby Thomas',
+        sector_cordinator_position:'Co-ordinator, Malayatoor-neeliseram panchayath',
+        sector_j_cordinator_name:'Mr. Roopesh TA',
+        sector_j_cordinator_position:'Joint Co-ordinator, Malayatoor-neeliseram panchayath',
+    },
+    {
+
+        sector_Name: 'Nedumbassery',
+        sector_Content: 'The importance of their panchayath is that the Cochin International Airport Situated in this panchayath. We can find the development related the airport in the section of Tourism and Hotel. There are many old institions in this panchayath. The main occupation different cultivations.',
+        sector_cordinator_name:'Mr. Lajiu Parayil',
+        sector_cordinator_position:'Co-ordinator, Nedumbassery Panchayath',
+        sector_j_cordinator_name:'',
+        sector_j_cordinator_position:'',
+    },
+    {
+
+        sector_Name: 'Karukutty',
+        sector_Content: ' The panchayath is in chilled in the list of A grade panchayath in the State. The main occupation is cultivation. The climate and were apt for list yield. This panchayath is near N.H. 47 and Karukutty Railway Station. This village is reputed for its educational and cultural standard,. Ezhattumugham is an attractive picnic spot in the village.',
+        sector_cordinator_name:'Mr. KP Roby',
+        sector_cordinator_position:'Co-ordinator, Karukutty Panchayath',
+        sector_j_cordinator_name:' Mr. Shaju Vareed ',
+        sector_j_cordinator_position:'Joint Co-ordinator, Karukutty Panchayath',
+    },
+    {
+
+        sector_Name: 'Koratty',
+        sector_Content: 'Koratty is the southeast panchayath in the Ernakulam district. The major population depends by cultivation. NH 47 passes this panchayath. The fomous Mariyam Pilgrim Centre in Koratty. This Panchayath is famous by the industrial firms like Government of India press, Kinfra park, Vaiga Thread, Karborandam Universal, K.C.P.L company. There is a reputed sanitorium in this panchayath. The panchayath is rich with the educational institutions like Govt. Politechnic, Koratty Matha Technical InstituteDemographicsAs of 2001 India census[1], Koratty had a population of 17,463. Males constitute 49% of the population and females 51%. Koratty has an average literacy rate of 85%, higher than the national average of 59.5%: male literacy is 86%, and female literacy is 84%. In Koratty, 10% of the population is under 6 years of age. Tourism & Pilgrimage TravelKoratty is one of the biggest Marian/Christian/Catholic pilgrimage travel destination of Kerala in India.Korattymuthy Shrine is a Pilgrimage centre in Kerala. It is also known as the Lourdes of Kerala. Korattymuthy- Our Lady with Poovan Bananas[2] is the well known name for Holy Mary or Mother Mary here. Devotees from all over the world visit Koratty annually. Every year the Feast of Koratty Muthy will commence on 1st Sunday after October 10. The flag for the feast will be hosted on the previous Wednesday.IndustryKoratty is also famous for its industrial units. Vaigai Thread Processors Ltd. (formerly J&P Coats, Jamuna Threads & Madura Coats and Coats Viella (I) Ltd. etc.). Another major industry is in Public Sector under the control of Government of India - Government of India Press, Koratty (GIPK). It is the one and only Indian Government controlled press in Kerala. Earlier it has been proposed to convert it into a security press for the printing of Stamp Papers and Postal Stamps etc.Other industries like Carborandum Universal, Kerala Chemicals & Proteins Ltd (KCPL) are also located here.',
+        sector_cordinator_name:'Mr. Saimon Poul',
+        sector_cordinator_position:'Co-ordinator, Koratty Panchayath',
+        sector_j_cordinator_name:'Mr. Jerry Joseph',
+        sector_j_cordinator_position:'Joint Co-ordinator, Koratty Panchayath',
+    },
+    {
+
+        sector_Name: 'Parakkadavu',
+        sector_Content: '  Parakkadavu Panchayath consists around 35000 peoples. The headquater is at Moozhikulam. The main occupation is different types of cultivation. The main crops are coconut, and paddy . The only Lekshmi Temple in India is situated in this panchayath. The old Moozhikulam church, Elavoor Puthankavu Temole are in this panchayath. It is said that, Tipu Sultan made his war through this place. Chalakudy river flows in this panchayath,enrich the panchayath naturally.',
+        sector_cordinator_name:'Mr. Joshy Sebastian',
+        sector_cordinator_position:'Co-ordinator, Parakkadavu Panchayath',
+        sector_j_cordinator_name:' Mr.Joman George',
+        sector_j_cordinator_position:'Joint Co-ordinator, Parakkadavu Panchayath',
+    },
+]
+
+export const sponsorArray = [
+
+    {
+        s_img_id: 1,
+        s_img_path: sponsor_1
+
+    },
+    {
+        s_img_id: 2,
+        s_img_path: sponsor_2
+
+    },
+    {
+        s_img_id: 3,
+        s_img_path: sponsor_3
+    },
+    {
+        img_id: 4,
+        img_path: sponsor_4
+
+    },
+    {
+        s_img_id: 5,
+        s_img_path: sponsor_5
+
+    },
+    {
+        s_img_id: 6,
+        img_path: sponsor_6
+
+    },
 ]

@@ -9,6 +9,9 @@ import { FaHandHoldingHeart } from "react-icons/fa6";
 import { sliderArray } from '../../assets/data'
 import CellsSlider from '../../Components/CellsSlider/CellsSlider';
 import HomeSlides from '../../Components/HomeSlides/HomeSlides';
+import About from '../../Components/About/About';
+import Sponsors from '../../Components/Sponsors/Sponsors';
+import Contact from '../../Components/Contact/Contact';
 
 const Home = () => {
 
@@ -118,9 +121,15 @@ const Home = () => {
 
         </div>
 
-        <CellsSlider />
+        <About />
 
         <HomeSlides />
+
+        <CellsSlider />   
+
+        <Sponsors />
+
+        <Contact />
 
         
     </div>
